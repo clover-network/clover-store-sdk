@@ -5,7 +5,7 @@ import android.content.SharedPreferences
 
 object SpHelper : BaseHelper() {
     const val KEY_IPFS_URL = "key_IPFS_URL"
-    const val KEY_IPFS_URL_DEFAULT = "http://18.138.102.196:5002"
+    const val KEY_IPFS_URL_DEFAULT = "https://ipfs.clover.finance"
 
     private fun getSp(): SharedPreferences {
         return ctx.getSharedPreferences(Constant.SP_NAME, Context.MODE_PRIVATE)
