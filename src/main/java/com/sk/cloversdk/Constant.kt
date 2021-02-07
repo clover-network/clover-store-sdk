@@ -3,7 +3,7 @@ package com.sk.cloversdk
 object Constant {
     var ROOT_SERVER_PATH = ""                                       // the root of local server path
     var IFPS_BASE_URL = ""                                          // custom ipfs url
-    const val CLOVER_OS_ROOT_NAME = "ZHHHDe4b7mDK2F9PeK"            // the uuid of clover os
+    const val CLOVER_OS_ROOT_NAME = "f7af66317e0d22e1"            // the uuid of clover os
     const val OS_CONTENT_DIR = "app_clover_os"                      // the dir of clover os
     const val INNER_SERVER_PORT = 32000
     const val INNER_SERVER_IP = "http://127.0.0.1"
